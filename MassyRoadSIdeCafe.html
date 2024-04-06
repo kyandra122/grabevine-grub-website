@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<Style>
+  .slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    border-bottom: 6px solid#240041;
+  }
+
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+
+
+
+
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+</Style>
+<div id="name" style="display: flex; align-items: center; justify-content: space-between;">
+  <h2 class="logo" style="margin-right: 10px;">
+    <img src="images/salford & co..png" style="width: 120px; height: 100px; border-radius: 50%;">
+
+  </h2>
+
+  <h2>Grapevine Grub
+    <br>
+
+    <p>Nuturing Local Eats, One Bite at a Time.</p>
+
+  </h2>
+
+  <a href="login.php">Logout</a>
+</div>
+
+<div class="menu">
+  <ul>
+    <li><a href="home.php">HOME</a></li>
+    <li>
+      <a href="#">SPOTS</a>
+      <ul class="dropdown">
+        <li><a href="thecaf.html">The Caf</a></li>
+        <li><a href="CrossCafe.html">Cross Cafe</a></li>
+        <li><a href="MassyRoadSIdeCafe.html">Massy's Roadside Cafe</a></li>
+
+      </ul>
+    </li>
+    <li>
+      <a href="about.html">ABOUT SPOTS</a>
+      <ul class="dropdown">
+        <li><a href="review.php">LEAVE A REVIEW</a></li>
+        <li><a href="submissions.php">Drop A Submission</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="order.php">Order NOW</a>
+    </li>
+</div>
+
+
+
+<style>
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .menu-item {
+    flex: 0 0 calc(25% - 20px);
+    /* 25% width with 20px margin */
+    margin: 10px;
+    text-align: center;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+    /* Add a smooth transition effect */
+  }
+
+  .menu-item:hover {
+    transform: scale(1.05);
+    /* Adjust the scale factor as needed */
+  }
+
+  .menu-item img {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 6px solid #240041;
+    /* You can adjust the color and thickness of the border as needed */
+    padding: 0px;
+
+  }
+
+  .description {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit text color from parent */
+    cursor: pointer;
+    /* Show pointer cursor on hover (optional) */
+    /* Additional styling if needed */
+  }
+
+  .slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+  }
+</style>
+
+</head>
+
+<body style="margin: 0; padding: 0; background:#eceff4; min-height: 100vh;">
+
+  <div class="slideshowContainer">
+
+
+    <img class="imageSlides" src="images/MASSYS NEW BANNER.png" alt="typeshit">
+
+    <div style="width: 100%; height: auto;">
+      <img class="imageSlides" src="images/MASSYS NEW BANNER.png" alt="typeshit"
+        style="width: 100%; object-fit: contain;">
+
+
+      <img class="imageSlides" src="images/MASSYS NEW BANNER.png" alt="typeshit">
+    </div>
+
+    <span id="leftArrow" class="slideshowArrow">&#8249;</span>
+    <span id="rightArrow" class="slideshowArrow">&#8250;</span>
+
+    <div class="slideshowCircles">
+
+      <span class="circle dot"></span>
+      <span class="circle"></span>
+      <span class="circle"></span>
+    </div>
+
+  </div>
+  <br>
+
+  <a href="Massy'sRoadSideCafeMenu.html"
+    style="text-decoration: none; color: #fff; display: block; text-align: center;">
+    <h2 style="color:black">Explore Menu</h2>
+  </a>
+
+  <br>
+  <h2 style="color:black">Specials of the Week.</h2>
+  <h2 style="color:black">All meals are $12!!</h2>
+  <br>
+
+  <div class="menu-container">
+    <div class="menu-item">
+      <a href="order.php" class="menu-link">
+        <img src="images/image coming soon.jpg" alt="Food Item 1">
+        <div class="description" style="color:black">Monday
+          <br>
+          <br>
+          <p style="color:black;">
+            A delightful meal featuring mac 'n' cheese and fried rice accompanied by ground provisions. Enhance your
+            plate with a vibrant assortment of salad, peas, succulent lamb, and perfectly baked chicken.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="menu-item">
+      <a href="order.php" class="menu-link">
+        <img src="images/image coming soon.jpg" alt="Food Item 2">
+        <div class="description"style="color:black">Tuesday</div>
+        <br>
+        <p style="color:black">Indulge in a delightful spread featuring green fig pie, stir-fried chow mein, an array of ground provisions,
+          and your choice of either fried or stewed chicken and lamb.</p>
+    </div>
+
+    <div class="menu-item">
+      <a href="order.php" class="menu-link">
+        <img src="images/image coming soon.jpg" alt="Food Item 3">
+        <div class="description"style="color:black">Wednesday</div>
+        <br>
+        <p style="color:black">A comforting meal of rice and peas paired with your choice of either potato salad or scalloped potatoes.</p>
+    </div>
+
+    <div class="menu-item">
+      <a href="order.php" class="menu-link">
+        <img src="images/image coming soon.jpg" alt="Food Item 4">
+        <div class="description"style="color:black">Thursday</div>
+        <br>
+        <p style="color:black">A tempting combination of creamy mac 'n' cheese, a refreshing green fig salad, a medley of ground provisions,
+          and your choice of peas or beans.</p>
+    </div>
+  </div>
+  <div class="menu-container">
+
+
+
+
+
+  </div>
+  <hr>
+  <br>
+  <h2 style="color:black">Location</h2>
+  <br>
+  <iframe
+  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d892.2190200928391!2d-60.997779730471976!3d13.998839999151226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDU5JzU1LjgiTiA2MMKwNTknNDkuNyJX!5e1!3m2!1sen!2s!4v1712323563461!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br>
+  <hr>
+
+  <footer
+    style=" border-top: 6px solid#240041; background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);; color: #fff; text-align: center; padding: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <p>&copy; 2024 Grapevine Grub. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
+    var imageSlides = document.getElementsByClassName('imageSlides');
+    var circles = document.getElementsByClassName('circle');
+    var leftArrow = document.getElementById('leftArrow');
+    var rightArrow = document.getElementById('rightArrow');
+    var counter = 0;
+
+    // HIDE ALL IMAGES FUNCTION
+    function hideImages() {
+      for (var i = 0; i < imageSlides.length; i++) {
+        imageSlides[i].classList.remove('visible');
+      }
+    }
+
+    // REMOVE ALL DOTS FUNCTION
+    function removeDots() {
+      for (var i = 0; i < imageSlides.length; i++) {
+        circles[i].classList.remove('dot');
+      }
+    }
+
+    // SINGLE IMAGE LOOP/CIRCLES FUNCTION
+    function imageLoop() {
+      var currentImage = imageSlides[counter];
+      var currentDot = circles[counter];
+      currentImage.classList.add('visible');
+      removeDots();
+      currentDot.classList.add('dot');
+      counter++;
+    }
+
+    // LEFT & RIGHT ARROW FUNCTION & CLICK EVENT LISTENERS
+    function arrowClick(e) {
+      var target = e.target;
+      if (target == leftArrow) {
+        clearInterval(imageSlideshowInterval);
+        hideImages();
+        removeDots();
+        if (counter == 1) {
+          counter = (imageSlides.length - 1);
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        } else {
+          counter--;
+          counter--;
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        }
+      }
+      else if (target == rightArrow) {
+        clearInterval(imageSlideshowInterval);
+        hideImages();
+        removeDots();
+        if (counter == imageSlides.length) {
+          counter = 0;
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        } else {
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        }
+      }
+    }
+
+    leftArrow.addEventListener('click', arrowClick);
+    rightArrow.addEventListener('click', arrowClick);
+
+
+    // IMAGE SLIDE FUNCTION
+    function slideshow() {
+      if (counter < imageSlides.length) {
+        imageLoop();
+      } else {
+        counter = 0;
+        hideImages();
+        imageLoop();
+      }
+    }
+
+    // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
+    setTimeout(slideshow, 1000);
+    var imageSlideshowInterval = setInterval(slideshow, 10000);
+    slideshow();
+  </script>
+</body>
+
+</html>
